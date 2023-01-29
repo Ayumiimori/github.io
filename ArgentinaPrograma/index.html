@@ -9,21 +9,22 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+       <!--javascript - librería jQuery-->
+<script>
+    $(document).ready(function(){
+        $('.zoom').hover(function() {
+            $(this).addClass('transition');
+        }, function() {
+            $(this).removeClass('transition');
+        });
+    });
+</script>
+<script src="JS/function.js"></script>
 
 </head>
 
 <body>
-   <!--javascript - librería jQuery-->
-<script>
-        $(document).ready(function(){
-            $('.zoom').hover(function() {
-                $(this).addClass('transition');
-            }, function() {
-                $(this).removeClass('transition');
-            });
-        });
-</script>
-<script src="JS/function.js"></script>
+
 
 
 </script>
